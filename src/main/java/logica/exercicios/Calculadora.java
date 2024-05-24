@@ -5,12 +5,11 @@ import java.util.Scanner;
 public class Calculadora {
     public static void main(String[] args) {
 
+        //Desafio
+        //Implemente as operações de subtração e multiplicação
         int num1;
         int num2;
-        //Pequeno menu
 
-        //Através da condição if
-        //pequeno teste
         Scanner leitor = new Scanner(System.in);
         System.out.println("Digite: \n1 -> para adição\n2 -> para subtração\n3 -> para multiplicação");
         String input = leitor.nextLine();
@@ -22,7 +21,7 @@ public class Calculadora {
             num2 = leitor.nextInt();
             System.out.println("A soma entre " + num1 + " e "+ num2 + " é: " +(num1+num2));
         } else if (input.equals("2")) {
-            while(true) {}
+
         } else if (input.equals("3")) {
 
         } else {
