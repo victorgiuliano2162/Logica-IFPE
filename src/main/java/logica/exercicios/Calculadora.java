@@ -10,7 +10,7 @@ public class Calculadora {
         //Pequeno menu
 
         //Através da condição if
-
+        //pequeno teste
         Scanner leitor = new Scanner(System.in);
         System.out.println("Digite: \n1 -> para adição\n2 -> para subtração\n3 -> para multiplicação");
         String input = leitor.nextLine();
