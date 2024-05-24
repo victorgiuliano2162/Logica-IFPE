@@ -22,7 +22,7 @@ public class ComparandoStrings {
             num2 = leitor.nextInt();
             System.out.println("A soma entre " + num1 + " e "+ num2 + " é: " +(num1+num2));
         } else if (input.equals("2")) {
-
+            while(true) {}
         } else if (input.equals("3")) {
 
         } else {
