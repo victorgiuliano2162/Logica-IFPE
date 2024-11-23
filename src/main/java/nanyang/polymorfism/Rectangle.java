@@ -8,16 +8,18 @@ public class Rectangle extends Shape {
 
     public Rectangle() {}
 
-    public Rectangle(double width, double length) {}
+    public Rectangle(double width, double length) {
+        this.width = width;
+        this.length = length;
+    }
 
     public Rectangle(double width, double length, String color, boolean filled) {
-
+        this.width = width;
+        this.length = length;
+        this.color = color;
+        this.filled = filled;
     }
 
-    @Override
-    public double getArea() {
-        return 0;
-    }
 
     public void setWidth(double width) {
         this.width = width;
@@ -36,7 +38,12 @@ public class Rectangle extends Shape {
     }
 
     @Override
+    public double getArea() {
+        return width * length;
+    }
+
+    @Override
     public double getPerimeter() {
-        return 0;
+        return width * 2 + length * 2;
     }
 }
