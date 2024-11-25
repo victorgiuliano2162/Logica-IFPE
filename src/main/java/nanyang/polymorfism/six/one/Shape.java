@@ -1,4 +1,4 @@
-package nanyang.polymorfism;
+package nanyang.polymorfism.six.one;
 
 public abstract class Shape {
 
@@ -34,4 +34,5 @@ public abstract class Shape {
     public String toString() {
         return getClass().getSimpleName() + " [color=" + color + ", filled=" + filled + "]";
     }
+
 }

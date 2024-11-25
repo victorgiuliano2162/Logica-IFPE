@@ -1,4 +1,4 @@
-package nanyang.polymorfism;
+package nanyang.polymorfism.six.one;
 
 public class Rectangle extends Shape {
 
@@ -45,5 +45,15 @@ public class Rectangle extends Shape {
     @Override
     public double getPerimeter() {
         return width * 2 + length * 2;
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle[Shape" +
+                "color='" + color +
+                ", filled=" + filled +
+                ", width=" + width +
+                ", length=" + length +
+                ']';
     }
 }
